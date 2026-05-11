@@ -1,6 +1,10 @@
 #ifndef ANAK_H
 #define ANAK_H
 //membuat class anak di file header anak.h 
+class anak {
+public: 
+    //deklrasi member variabel pada class anak 
+    string nama;
 
     //membuat constructor dan destructor pada class anak
     anak(string pNama) : nama(pNama) {
