@@ -18,4 +18,7 @@ class Ibu {
         cout << "Ibu \"" << nama << "\" tidak ada\n";
     };
 
+    //deklarasi prosedur tambahAnak() dan cetakAnak()
+    void tambahAnak (anak* pAnak);
+    void cetakAnak();
 };
